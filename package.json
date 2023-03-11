@@ -7,17 +7,11 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SalahELDineAlAyoubi/med-aid-server.git"
-  },
+ 
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SalahELDineAlAyoubi/med-aid-server/issues"
-  },
-  "homepage": "https://github.com/SalahELDineAlAyoubi/med-aid-server#readme",
-  "dependencies": {
+  
+   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
     "cors": "^2.8.5",
