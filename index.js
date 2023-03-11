@@ -15,7 +15,7 @@ const app = express();
   app.use(bodyParser.json({ limit: "30mb", extended: true }));
   app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
    app.use(cors());
-app.grt("/",(req,res)=> {res.setHeader("Accecc-Control-Allow-Credentials","true")}
+app.get("/",(req,res)=> {res.setHeader("Accecc-Control-Allow-Credentials","true")});
  dotenv.config(); 
 
 
